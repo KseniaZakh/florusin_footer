@@ -1,89 +1,30 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : normal;
-	src : local('Constantia'), local('Constantia Regular'), url(../fonts/constan.eot) format('eot');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
+    	font-family : 'SFUIDisplay-Regular';
+    	src : url('../fonts/SFUIDisplay-Regular.eot');
+    	src : url('../fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    		url('../fonts/SFUIDisplay-Regular.woff') format('woff');
+    		/* url('../fonts/SFUIDisplay-Regular.ttf') format('truetype'); */
+   		font-style : normal;
+    	font-weight : normal;
+		}
 
 @font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : normal;
-	src : local('Constantia'), local('Constantia Regular'), url(../fonts/constan) format('ttf');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
+		font-family: 'Constantia-Regular';
+		src: url('../fonts/constan.eot');
+		src: url('../fonts/constan.eot#iefix') format('embedded-opentype'),
+				url('../fonts/constan.woff') format('woff'),
+				url('../fonts/original-constan.ttf') format('truetype');
+		font-style: normal;
+		font-weight: normal;
+}
 
 @font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : normal;
-	src : local('Constantia'), local('Constantia Regular'), url(../fonts/constan.woff) format('woff');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : bold;
-	src : local('Constantia Bold'), url(../fonts/constanb.eot) format('eot');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : bold;
-	src : local('Constantia Bold'), url(../fonts/constanb) format('ttf');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'Constantia';
-	font-style : normal;
-	font-weight : bold;
-	src : local('Constantia Bold'), url(../fonts/constanb.woff) format('woff');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'Constantia Original';
-	font-style : normal;
-	font-weight : normal;
-	src : local('Constantia Original'), url(../fonts/original-constan) format('ttf');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'SFUIDisplay';
-	font-style : normal;
-	font-weight : normal;
-	src : local('SFUIDisplay'), local('SFUIDisplay Regular'), url(../fonts/SFUIDisplay-Regular.eot) format('eot');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'SFUIDisplay';
-	font-style : normal;
-	font-weight : normal;
-	src : local('SFUIDisplay'), local('SFUIDisplay-Regular'), url(../fonts/SFUIDisplay-Regular) format('otf');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'SFUIDisplay';
-	font-style : normal;
-	font-weight : normal;
-	src : local('SFUIDisplay'), local('SFUIDisplay-Regular'), url(../fonts/SFUIDisplay-Regular.woff) format('woff');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
-
-@font-face {
-	font-family : 'SFUIDisplay';
-	font-style : normal;
-	font-weight : bold;
-	src : local('SFUIDisplay Bold'), url(../fonts/SFUIDisplay-Regular.woff) format('woff');
-	/* unicode-range : U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
-	}
+		font-family: 'Constantia-Bold';
+		src: url('../fonts/constanb.eot');
+		src: url('../fonts/constanb.eot#iefix') format('embedded-opentype'),
+				url('../fonts/constanb.woff') format('woff');
+		font-style: normal;
+		font-weight: bold;
+}

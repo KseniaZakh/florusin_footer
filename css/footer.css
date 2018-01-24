@@ -1,106 +1,102 @@
 @charset 'UTF-8';
 
 footer {
-	font-family: 'SFUIDisplay', Arial, sans-serif;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	background-color: #f8e8f2;
 }
 
 .footer_container {
-	display: flex;
 	position: relative;
 	max-width: 1200px;
-	font-size: 1em;
-	line-height: 1.25em;
+	margin: 0 auto;
+	font-family: 'SFUIDisplay-Regular', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 footer p {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin: 0;
 }
+
 .footer_img {
 	position: absolute;
+	width: 280px;
+	top: -107px;
 }
 
-.footer_img img {
-	width: 100%;
+a.developer {
+		display : block;
+		z-index : 10;
+		width : 140px;
+		height : 36px;
+		margin : 2px 0;
+		background-image : url('../img/developer.svg?18092017');
+		background-position : 0% 0%;
+		background-repeat : no-repeat;
+		background-size : cover;
+		color : rgba(254, 96, 129, 1);
 }
 
-@media (max-width: 1280px) {
-	.footer_container {
-		margin-left: 2.5em;
-		margin-right: 2.5em;
-	}
+a.developer::after {
+		display : block;
+		position : absolute;
+		bottom : -3px;
+		left : 36px;
+		z-index : 10;
+		font : normal 12px/12px Arial, Tahoma, Verdana, sans-serif;
+		content : "создание сайта";
+		white-space : nowrap;
 }
 
-@media (min-width: 1281px) {
-	.footer_container {
-		margin: 0 auto;
-	}
-}
+@media only screen and (min-width: 961px) {
 
-@media (min-width: 961px) {
-	.footer_container {
-		font-size: 16px;
-		justify-content: space-between;
-	}
-
-	.developer_logo {
-		align-self: center;
+	footer {
+		padding: 30px 40px;
 	}
 
 	.footer_img {
-		bottom: 20%;
-		right: 15%;
+		right: 21vw;
 	}
 
-	.content {
-		min-height: calc(100vh - 104px);
+	footer p {
+		padding-right: 55%;
 	}
-}
 
-@media (min-width: 961px) and (max-width: 1280px) {
-
-		.footer_img {
-			width: 22.5vw;
-		}
+	a.developer {
+			position : absolute;
+			top : 0;
+			right : 40px;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 960px) {
-	.footer_container {
-		flex-direction: column;
-		font-size: 12px;
+	footer {
+		padding: 20px;
+	}
+
+	footer p {
+		padding-right: 55%;
 	}
 
 	.footer_img {
-		width: 27vw;
-		bottom: 0;
-		right: -2.5em;
-	}
-
-	.content {
-		min-height: calc(100vh - 122px);
+		right: 0;
 	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-	.footer_container {
-		flex-direction: column;
-		font-size: 11px;
-		overflow-x: hidden;
-		margin-right: 0;
+@media (max-width: 480px) {
+	footer {
+		padding: 20px;
 	}
 
-	.footer_container div:first-child {
-		width: 70%;
+	footer p {
+		padding-top: 60px;
+		padding-right: 15%;
 	}
 
 	.footer_img {
-		width: 140px;
-		bottom: 0;
-		right: 0;
+		right: -30px;
 	}
 
-	.content {
-		min-height: calc(100vh - 139px);
-	}
 }
