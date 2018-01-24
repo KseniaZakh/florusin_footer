@@ -60,7 +60,7 @@ a.developer::after {
 	a.developer {
 		position : absolute;
 		top : 0;
-		right : 40px;
+		right : 0;
 	}
 }
 @media (min-width: 741px) and (max-width: 1080px) {
