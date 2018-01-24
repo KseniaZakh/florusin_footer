@@ -5,3 +5,8 @@
 	min-height: 100vh;
 	overflow: hidden;
 }
+
+footer p {
+	max-width : 560px;
+	margin: 0;
+}
