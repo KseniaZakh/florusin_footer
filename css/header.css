@@ -29,7 +29,6 @@ a.header_logo {
 a.header_language {
 	position: absolute;
 	display : block;
-	position: relative;
 	width: 55px;
 	height: 40px;
 	border: 1px solid rgba(254, 96, 129, 1);
@@ -111,7 +110,6 @@ header ul > li:last-child {
 	}
 
 	a.header_language {
-		position: absolute;
 		top: 20px;
 		right: 0;
 	}
@@ -151,7 +149,6 @@ header ul > li:last-child {
 	}
 
 	a.header_language {
-		position: absolute;
 		top: 20px;
 		right: 70px;
 	}
