@@ -15,7 +15,7 @@
 		src: url('../fonts/constan.eot');
 		src: url('../fonts/constan.eot#iefix') format('embedded-opentype'),
 				url('../fonts/constan.woff') format('woff'),
-				url('../fonts/original-constan.ttf') format('truetype');
+				url('../fonts/constan.ttf') format('truetype');
 		font-style: normal;
 		font-weight: normal;
 }
@@ -24,7 +24,8 @@
 		font-family: 'Constantia-Bold';
 		src: url('../fonts/constanb.eot');
 		src: url('../fonts/constanb.eot#iefix') format('embedded-opentype'),
-				url('../fonts/constanb.woff') format('woff');
+				url('../fonts/constanb.woff') format('woff'),
+				url('../fonts/constanb.ttf') format('truetype');
 		font-style: normal;
-		font-weight: bold;
+		font-weight: normal;
 }
