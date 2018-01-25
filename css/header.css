@@ -1,0 +1,182 @@
+@charset 'UTF-8';
+
+header {
+	width: 100%;
+	background-color: rgba(248, 232, 242, 1);
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.header_container {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	font: normal 22px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
+	color: rgba(65, 63, 65, 1);
+}
+
+a.header_logo {
+	display : block;
+	width : 100px;
+	height : 80px;
+	background-image : url('../img/logo-florusin.svg?24012018');
+	background-position : 0% 0%;
+	background-repeat : no-repeat;
+	background-size : cover;
+	opacity: 0.8;
+}
+
+a.header_language {
+	position: absolute;
+	display : block;
+	position: relative;
+	width: 55px;
+	height: 40px;
+	border: 1px solid rgba(254, 96, 129, 1);
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a.header_language:after {
+	position: absolute;
+	content: 'en';
+	z-index: 10;
+	color: rgba(254, 96, 129, 1);
+	top: 10px;
+	left: 12px;
+	text-transform: uppercase;
+	white-space : nowrap;
+}
+
+a.header_language:hover {
+	cursor: pointer;
+	background-color: rgba(254, 96, 129, 1);
+}
+
+a.header_language:hover:after {
+	color: rgba(255, 255, 255, 1);
+}
+
+a.header_phone {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+header ul {
+	position: absolute;
+	z-index: 15;
+	cursor: pointer;
+	width: 40px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	list-style: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+header ul > li {
+	background-color: rgba(254, 96, 129, 1);
+	position: inherit;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	z-index: inherit;
+	border-radius: 2px;
+	transition : all 0.25s;
+}
+
+header ul > li:first-child,
+header ul > li:nth-child(2) {
+	top: 13px;
+	transform: rotate(0);
+}
+
+header ul > li:nth-child(3) {
+	top: 0;
+}
+
+header ul > li:last-child {
+	bottom: 0;
+}
+
+@media only screen and (min-width: 961px) {
+
+	header {
+		padding-right: 40px;
+		padding-left: 30px;
+	}
+
+	a.header_language {
+		position: absolute;
+		top: 20px;
+		right: 0;
+	}
+
+	a.header_phone {
+		position: absolute;
+		padding-right: 45px;
+		top: 30px;
+		right: 100px;
+	}
+
+	header ul {
+		display: none;
+	}
+}
+
+@media (min-width: 541px) and (max-width: 960px) {
+
+	a.header_phone {
+		position: absolute;
+		padding-right: 45px;
+		top: 30px;
+		right: 160px;
+	}
+}
+
+@media (max-width: 960px) {
+	header {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	header ul {
+		display: block;
+		right: 0;
+		top: 25px;
+	}
+
+	a.header_language {
+		position: absolute;
+		top: 20px;
+		right: 70px;
+	}
+
+	ul.open:active > li:first-child {
+		transform: rotate(45deg);
+	}
+
+	ul.open:active > li:nth-child(2) {
+		transform: rotate(-45deg);
+	}
+
+	ul.open:active > li:nth-child(3) {
+		top: -10px;
+	}
+
+	ul.open:active > li:last-child {
+		bottom: -10px;
+	}
+}
+
+@media (max-width: 540px) {
+
+	a.header_phone {
+		width: 180px;
+		margin: 0 auto;
+	}
+}

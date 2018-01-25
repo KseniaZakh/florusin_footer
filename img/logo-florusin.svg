@@ -1,0 +1,29 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="95px" height="79px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(201,82,122)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(247,222,234)" stop-opacity="1" />
+</linearGradient>
+<linearGradient id="PSgrad_1" x1="100%" x2="0%" y1="0%" y2="0%">
+  <stop offset="0%" stop-color="rgb(204,43,95)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(239,156,186)" stop-opacity="1" />
+</linearGradient>
+<linearGradient id="PSgrad_2" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(245,208,224)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(196,38,89)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="url(#PSgrad_0)"
+ d="M16.000,62.000 L-0.000,62.000 C-0.000,62.000 11.750,57.750 18.000,51.000 C24.250,44.250 27.659,32.411 34.000,26.000 C41.500,18.417 58.000,17.000 58.000,17.000 L58.000,18.000 C58.000,18.000 40.167,20.000 35.000,28.000 C29.833,36.000 28.861,44.873 26.000,50.000 C22.000,57.167 16.000,62.000 16.000,62.000 Z"/>
+<path fill-rule="evenodd"  fill="url(#PSgrad_1)"
+ d="M34.000,16.000 L30.000,14.000 C30.000,14.000 86.010,1.347 94.000,12.000 C101.500,22.000 48.000,48.000 48.000,48.000 L49.000,45.000 C49.000,45.000 88.187,23.333 85.000,15.000 C81.525,5.914 34.000,16.000 34.000,16.000 Z"/>
+<path fill-rule="evenodd"  fill="url(#PSgrad_2)"
+ d="M77.000,4.000 C77.000,4.000 55.250,1.500 53.000,1.000 C50.750,0.500 49.500,2.250 49.000,5.000 C48.500,7.750 36.500,74.750 36.000,77.000 C35.500,79.250 38.290,79.839 39.000,77.000 C40.000,73.000 55.017,5.793 57.000,5.000 C58.250,4.500 77.000,4.000 77.000,4.000 Z"/>
+<path fill-rule="evenodd"  fill="rgb(227, 55, 110)"
+ d="M48.000,10.714 L47.000,13.571 L54.286,12.714 L55.000,9.857 L48.000,10.714 Z"/>
+<text font-family="Palatino Linotype" fill="rgb(0, 0, 2)" transform="matrix( 0.43670801502601, 0, 0, 0.43670801502601,23.4016739600233, 61.120248090156)" font-weight="bold" font-style="italic" font-size="26.353px">&#1092;&#1083;&#1086;&#1088;&#1091;&#1089;&#1080;&#1085;</text>
+</svg>
