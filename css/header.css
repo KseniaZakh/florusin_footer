@@ -28,35 +28,22 @@ a.header_logo {
 
 a.header_language {
 	position: absolute;
-	display : block;
+	/* display : block; */
 	width: 45px;
 	height: 40px;
+	font-size: 18px;
+	color: rgba(254, 96, 129, 1);
+	padding: 9px;
 	border: 1px solid rgba(254, 96, 129, 1);
 	border-radius: 5px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-a.header_language:after {
-	position: absolute;
-	content: 'en';
-	z-index: 10;
-	font-size: 18px;
-	color: rgba(254, 96, 129, 1);
-	top: 9px;
-	left: 9px;
-	text-transform: uppercase;
-	white-space : nowrap;
-}
-
 a.header_language:hover {
 	cursor: pointer;
-	background-color: rgba(254, 96, 129, 1);
-	transition: all 0.25s;
-}
-
-a.header_language:hover:after {
 	color: rgba(255, 255, 255, 1);
+	background-color: rgba(254, 96, 129, 1);
 	transition: all 0.25s;
 }
 
