@@ -11,7 +11,6 @@ header {
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
-	font: normal 22px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
 	color: rgba(43, 43, 43, 1);
 }
 
@@ -38,6 +37,7 @@ a.lang {
 a.header_phone {
 	position: absolute;
 	display: block;
+	font: normal 22px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
 	color: inherit;
 }
 
