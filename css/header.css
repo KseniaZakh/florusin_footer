@@ -50,9 +50,9 @@ a.lang:hover {
 }
 
 a.header_phone {
+	position: absolute;
 	display: block;
 	font: normal 22px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
-	color: inherit;
 }
 
 header ul {
@@ -103,9 +103,9 @@ header ul > li:last-child {
 	}
 
 	a.header_phone {
-		position: absolute;
 		top: 30px;
 		right: 95px;
+		color: inherit;
 	}
 
 	header ul {
@@ -116,9 +116,9 @@ header ul > li:last-child {
 @media (min-width: 541px) and (max-width: 960px) {
 
 	a.header_phone {
-		position: absolute;
 		top: 30px;
-		right: 125px;
+		right: 150px;
+		color: inherit;
 	}
 }
 
@@ -160,10 +160,22 @@ header ul > li:last-child {
 
 	a.header_phone {
 		width: 100%;
+		left: 0;
+		bottom: -50px;
 		font: normal 18px/40px 'SFUIDisplay-Regular', Arial, sans-serif;
 		text-align: center;
 		color: rgba(255, 255, 255, 1);
-		background-color: rgba(254, 96, 129, 1);
-		margin-top: 10px;
 	}
+
+	a.header_phone:after {
+		position: absolute;
+		content: '';
+		width: 100vw;
+		height: 40px;
+		left: -20px;
+		bottom: 0;
+		z-index: -1;
+		background: rgba(254, 96, 129, 1);
+	}
+
 }
