@@ -1,0 +1,107 @@
+@charset 'UTF-8';
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	position: absolute;
+	transition : all 0.25s;
+}
+
+nav ul {
+	font: normal 18px/16px 'SFUIDisplay-Regular', Arial, sans-serif;
+}
+
+nav ul > li > a {
+	color: rgba(51, 51, 51, 1);
+}
+
+nav ul > li:hover {
+	cursor: pointer;
+}
+
+/* ///ДЕСКТОПЫ/// */
+
+@media only screen and (min-width: 961px) {
+
+	nav {
+		top: 50px;
+		right: 45%;
+	}
+
+	nav ul > li {
+		display: inline-block;
+	}
+
+	nav ul > li:not(:last-child) {
+		padding-right: 55px;
+	}
+}
+
+/* ////ПЛАНШЕТЫ/// */
+
+@media (min-width: 541px) and (max-width: 960px) {
+
+	nav.opened {
+		height: calc(100vh - 105px);
+		top: 105px;
+	}
+
+	nav ul {
+		width: 270px;
+		height: calc(100vh - 105px);
+		left: -270px;
+	}
+
+	nav ul > li {
+		padding-left: 40px;
+		padding-top: 30px;
+	}
+}
+
+/* ///СМАРТФОНЫ И ПЛАНШЕТЫ/// */
+
+@media (max-width: 960px) {
+
+	nav ul {
+		position: absolute;
+		background-color: rgba(248, 232, 242, 1);
+		top: 0;
+	}
+
+	nav.opened {
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		z-index: 20;
+		right: 50%;
+		margin-right: -50%;
+	}
+
+	nav.opened ul {
+		left: 0;
+	}
+	}
+
+/* ///СМАРТФОНЫ/// */
+
+@media (max-width: 540px) {
+
+	nav.opened {
+		height: calc(100vh - 125px);
+		top: 125px;
+	}
+
+	nav ul {
+		width: 160px;
+		height: calc(100vh - 125px);
+		left: -160px;
+	}
+
+	nav ul > li {
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+}
