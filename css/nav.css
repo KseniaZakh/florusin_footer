@@ -12,9 +12,9 @@ nav ul > li > a {
 	color: rgba(51, 51, 51, 1);
 }
 
-/* nav ul > li:hover {
-	cursor: pointer;
-} */
+nav ul > li:hover > a {
+	color: rgba(254, 96, 129, 1);
+}
 
 /* ///ДЕСКТОПЫ/// */
 
