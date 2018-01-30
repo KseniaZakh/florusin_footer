@@ -169,11 +169,6 @@ header ul > li:last-child {
 	ul.opened > li:last-child {
 		bottom: -10px;
 	}
-
-	ul.opened > li {
-		background-color: rgba(255, 255, 255, 1);
-	}
-
 }
 		/* ///СМАРТФОНЫ/// */
 
