@@ -1,9 +1,9 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
-* { 
-	box-sizing : border-box; 
+* {
+	box-sizing : border-box;
 	}
-	
+
 body {
 	-webkit-text-size-adjust : 100%;
 	}
@@ -19,60 +19,60 @@ div {
 	padding : 0;
 	}
 
-html, body, 
+html, body,
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
 img, a img,
 div {
 	font : inherit;
 	vertical-align : baseline;
 	}
-	
+
 address, caption, cite, code, dfn, th, var {
 	font-style : normal;
 	font-weight : normal;
 	}
-	
+
 html, body {
 	width : 100%;
 	height : 100%;
 	}
-	
-input:focus, 
+
+input:focus,
 textarea:focus,
-select:focus, 
+select:focus,
 button:focus,
 div:focus,
-a:focus { 
-	outline : none; 
+a:focus {
+	outline : none;
 	}
-	
+
 input,
 textarea {
 	-webkit-appearance : none;
     }
 
-caption, th { 
-	text-align : left; 
-	}
-	
-fieldset,
-abbr, acronym,
-img, img a { 
-	border : 0; 
-	}
-	
-blockquote, q {
-	quotes : none; 
+caption, th {
+	text-align : left;
 	}
 
-blockquote::before, blockquote::after,	
-q::before, q::after { 
+fieldset,
+abbr, acronym,
+img, img a {
+	border : 0;
+	}
+
+blockquote, q {
+	quotes : none;
+	}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
 	content : '';
 	content : none;
 	}
 
-main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img { 
-	display : block; 
+main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img {
+	display : block;
 	}
 
 h1, h2, h3, h4, h5, h6 {
