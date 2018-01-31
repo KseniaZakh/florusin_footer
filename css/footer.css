@@ -11,7 +11,7 @@ footer {
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
-	font : normal 16px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
+	font : normal 16px/20px "SFUIDisplay-Regular", Arial, sans-serif;
 	color: rgba(43, 43, 43, 1);
 }
 
@@ -32,7 +32,7 @@ a.developer {
 		width : 140px;
 		height : 36px;
 		margin : 2px 0;
-		background-image : url('../img/developer.svg?18092017');
+		background-image : url("../img/developer.svg?18092017");
 		background-position : 0% 0%;
 		background-repeat : no-repeat;
 		background-size : cover;

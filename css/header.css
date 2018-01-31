@@ -16,7 +16,7 @@ header {
 
 a.header_logo {
 	display : block;
-	background-image : url('../img/logo-florusin.svg?24012018');
+	background-image : url("../img/logo-florusin.svg?24012018");
 	background-position : 0% 0%;
 	background-repeat : no-repeat;
 	background-size : cover;
@@ -28,7 +28,7 @@ a.lang {
 	width: 45px;
 	height: 40px;
 	z-index: 10;
-	font: normal 18px/38px 'SFUIDisplay-Regular', Arial, sans-serif;
+	font: normal 18px/38px "SFUIDisplay-Regular", Arial, sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	color: rgba(254, 96, 129, 1);
@@ -44,7 +44,7 @@ a.lang:hover {
 
 a.header_phone {
 	display: block;
-	font: normal 22px/20px 'SFUIDisplay-Regular', Arial, sans-serif;
+	font: normal 22px/20px "SFUIDisplay-Regular", Arial, sans-serif;
 }
 
 header ul {
@@ -196,7 +196,7 @@ header ul > li:last-child {
 
 	a.header_phone {
 		width: 100%;
-		font: normal 18px/40px 'SFUIDisplay-Regular', Arial, sans-serif;
+		font: normal 18px/40px "SFUIDisplay-Regular", Arial, sans-serif;
 		text-align: center;
 		color: rgba(255, 255, 255, 1);
 		background: rgba(254, 96, 129, 1);
