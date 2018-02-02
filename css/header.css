@@ -106,6 +106,17 @@ header ul > li:last-child {
 		padding-left: 30px;
 	}
 
+	.header_container {
+		height: 80px;
+	}
+
+	a.header_logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 5;
+	}
+
 	a.lang {
 		top: 20px;
 		right: 0;
