@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+article {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+}
+
+div.brief,
+div.content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+article h1,
+article h2,
+div.brief p {
+	text-align: center;
+}
+
+article h1 {
+	position: relative;
+}
+
+article h1:after {
+	content: "";
+	position: absolute;
+	background-color: rgba(254, 96, 124, 1);
+	width: 100px;
+	height: 4px;
+	bottom: -15px;
+	left: calc(50% - 50px);
+}
+
+article ul {
+	padding-left: 55px;
+}
+
+div.content ul span {
+	color: rgba(128, 128, 128, 1);
+}
+
+div.content ul li {
+	position: relative;
+}
+
+div.content ul li:before {
+	content: "";
+	position: absolute;
+	background-color: rgba(254, 96, 124, 1);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	left: -20px;
+}
+
+article a {
+	color: inherit;
+}
+
+article a:hover {
+	color: rgba(254, 96, 129, 1);
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 961px) {
+	div.content p,
+	div.content ul {
+		font : normal 19px/30px "SFUIDisplay-Regular", Arial, sans-serif;
+	}
+
+	article p {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	article h2,
+	article h1 {
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+
+	div.brief p {
+		font : normal 24px/30px "SFUIDisplay-Regular", Arial, sans-serif;
+	}
+
+	article h1 {
+		font : normal 54px/54px "Constantia-Regular", Arial, sans-serif;
+	}
+
+	article h2 {
+		font : normal 34px/34px "Constantia-Bold", Arial, sans-serif;
+	}
+
+	div.content > p+ul {
+		margin-top: -20px;
+	}
+
+	div.content ul li {
+		margin-bottom: 25px;
+	}
+
+	div.content ul li:before {
+		top: 10px;
+	}
+}
+
+@media (min-width: 541px) and (max-width: 960px) {
+
+	div.brief,
+	div.content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	div.brief p {
+		font : normal 22px/27px "SFUIDisplay-Regular", Arial, sans-serif;
+	}
+
+	article h1 {
+		font-size: calc(2.8vw + 21px);
+		line-height: calc(2.8vw + 21px);
+		font-family: "Constantia-Regular", Arial, sans-serif;
+		font-weight: normal;
+	}
+
+	article h2 {
+		font-size: calc(0.9vw + 21px);
+		line-height: calc(0.9vw + 21px);
+		font-family: "Constantia-Bold", Arial, sans-serif;
+		font-weight: normal;
+	}
+
+	article h2,
+	article h1 {
+		margin-top: 48px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 960px) {
+
+	div.content p,
+	div.content ul {
+		font : normal 16px/20px "SFUIDisplay-Regular", Arial, sans-serif;
+	}
+
+	article p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	div.content ul li {
+		margin-bottom: 20px;
+	}
+
+	div.content ul br {
+		display: none;
+	}
+
+	div.content ul li:before {
+		top: 5px;
+	}
+}
+
+@media (max-width: 540px) {
+	div.brief,
+	div.content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	div.brief p {
+		font : normal 20px/24px "SFUIDisplay-Regular", Arial, sans-serif;
+	}
+
+	article h1 {
+		font : normal 36px/36px "Constantia-Regular", Arial, sans-serif;
+	}
+
+	article h2 {
+		font : normal 24px/24px "Constantia-Bold", Arial, sans-serif;
+	}
+
+	article h2,
+	article h1 {
+		margin-top: 36px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (min-width: 1081px) {
+
+	article {
+		padding-bottom: 200px;
+	}
+}
+
+@media (min-width: 741px) and (max-width: 1080px) {
+
+	article {
+		padding-bottom: 230px;
+	}
+}
+
+@media (max-width: 740px) {
+
+	article {
+		padding-bottom: 340px;
+	}
+}
