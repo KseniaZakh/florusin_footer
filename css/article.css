@@ -6,6 +6,7 @@ article {
 	margin: 0 auto;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(0, 0, 0, 1);
+
 }
 
 div.brief,
@@ -18,6 +19,10 @@ article h1,
 article h2,
 div.brief p {
 	text-align: center;
+}
+
+article p {
+	margin: 0;
 }
 
 article h1 {
@@ -65,22 +70,32 @@ article a {
 
 article a:hover {
 	color: rgba(128, 128, 128, 1);
+	text-decoration: none;
 }
 
 @media only screen and (min-width: 961px) {
+
+	article {
+		padding: 50px 0;
+	}
+
 	div.content p,
 	div.content ul	{
 		font : normal 18px/30px "SFUIDisplay-Regular", Arial, sans-serif;
 	}
 
 	article p {
-		margin-top: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	article h1 {
+		margin-top: 20px;
 		margin-bottom: 30px;
 	}
 
-	article h2,
-	article h1 {
-		margin-top: 60px;
+	article h2 {
+		margin-top: 65px;
 		margin-bottom: 30px;
 	}
 
@@ -96,9 +111,9 @@ article a:hover {
 		font : normal 34px/34px "Constantia-Bold", Arial, sans-serif;
 	}
 
-	div.content > p+ul {
+	/* div.content > p+ul {
 		margin-top: -20px;
-	}
+	} */
 
 	div.content ul li:before {
 		top: 10px;
@@ -127,12 +142,16 @@ article a:hover {
 
 	article h2,
 	article h1 {
-		margin-top: 48px;
+		margin-top: 20px;
 		margin-bottom: 30px;
 	}
 }
 
 @media (max-width: 960px) {
+
+	article {
+		padding: 30px 0;
+	}
 
 	div.content p,
 	div.content ul {
@@ -140,8 +159,8 @@ article a:hover {
 	}
 
 	article p {
-		margin-top: 20px;
-		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	div.content ul br {
@@ -174,7 +193,7 @@ article a:hover {
 
 	article h2,
 	article h1 {
-		margin-top: 36px;
+		margin-top: 10px;
 		margin-bottom: 30px;
 	}
 }

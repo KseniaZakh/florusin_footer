@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-html, body {
-	min-height: 100%;
-}
-
 div.container {
 	position: relative;
 	min-height: 100%;
