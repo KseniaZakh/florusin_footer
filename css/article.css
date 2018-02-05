@@ -27,6 +27,7 @@ article p {
 
 article h1 {
 	position: relative;
+	margin-bottom: 30px;
 }
 
 article h1:after {
@@ -91,7 +92,6 @@ article a:hover {
 
 	article h1 {
 		margin-top: 20px;
-		margin-bottom: 30px;
 	}
 
 	article h2 {
@@ -110,10 +110,6 @@ article a:hover {
 	article h2 {
 		font : normal 34px/34px "Constantia-Bold", Arial, sans-serif;
 	}
-
-	/* div.content > p+ul {
-		margin-top: -20px;
-	} */
 
 	div.content ul li:before {
 		top: 10px;
@@ -140,11 +136,10 @@ article a:hover {
 		font : normal 30px/30px "Constantia-Bold", Arial, sans-serif;
 	}
 
-	article h2,
 	article h1 {
 		margin-top: 20px;
-		margin-bottom: 30px;
 	}
+
 }
 
 @media (max-width: 960px) {
@@ -170,6 +165,11 @@ article a:hover {
 	div.content ul li:before {
 		top: 5px;
 	}
+
+	article h2 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 540px) {
@@ -191,9 +191,7 @@ article a:hover {
 		font : normal 24px/24px "Constantia-Bold", Arial, sans-serif;
 	}
 
-	article h2,
 	article h1 {
 		margin-top: 10px;
-		margin-bottom: 30px;
 	}
 }
